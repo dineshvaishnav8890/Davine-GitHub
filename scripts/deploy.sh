@@ -1,9 +1,16 @@
 #!/bin/bash
 
-echo "Starting deployment..."
+echo "================================"
+echo "DevOps Week 02 Deployment"
+echo "================================"
 
-echo "Checking project files..."
+echo "Checking project directory..."
 
-ls -la
+if [ -f "app.py" ]; then
+    echo "Python application found."
+else
+    echo "Python application not found."
+    exit 1
+fi
 
-echo "Deployment script executed successfully!"
+echo "Deployment preparation completed successfully!"
