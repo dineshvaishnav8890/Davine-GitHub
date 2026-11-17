@@ -28,3 +28,15 @@ git switch feature-branch
 
 git switch main
 git merge feature-branch
+
+## Branching Best Practices
+
+1. Create a separate branch for every feature.
+2. Use meaningful branch names.
+3. Test changes before merging.
+4. Keep the main branch stable.
+5. Delete completed feature branches when appropriate.
+
+## Documentation Status
+
+Git branching documentation completed.
