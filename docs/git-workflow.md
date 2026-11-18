@@ -40,3 +40,8 @@ git merge feature-branch
 ## Documentation Status
 
 Git branching documentation completed.
+
+## Rebase Practice
+
+Git rebase moves feature branch commits onto the latest base branch.
+It helps maintain a linear project history.
